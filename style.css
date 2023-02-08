@@ -1,0 +1,112 @@
+body {
+    font-family: 'Sarabun', sans-serif;
+    background-color:#D3756B;  
+  }
+  
+  .container {
+    color: #2D3561  ;
+    font-weight: 400 ;
+    font-size: medium ;
+    line-height: normal ;
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  @media (max-width: 960px) {
+    /* Pour un écran < 960px, cette classe CSS s'applique */
+    .container {
+      width: 700px;
+    }
+  }
+  
+  @media (max-width: 720px) {
+    /* Pour un écran < 720px, cette classe CSS s'applique */
+    .container {
+      width: 500px;
+    }
+  }
+  
+  @media (max-width: 540px) {
+    /* Pour un écran < 540px, cette classe CSS s'applique */
+    .container {
+      width: 300px;
+    }
+  }
+  
+  .box-light-content {
+    margin: 20px;
+    padding: 30px 60px;
+    background-color: #f5e5d6;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgb(0 0 0 / 40%);
+  }
+  
+  h1, h2 {
+    margin : 5px ;
+    font-weight: 600;
+    color: #222849 ;
+  }
+
+  h1 {
+    margin-bottom : 20px ;
+  }
+  
+  #img-profile {
+    width: 200px ;
+    border-radius: 4px ;
+  }
+  
+  .btn-blue {
+    border-radius: 3px;
+    margin: 40px auto 10px ;
+    padding: 10px;
+    background-color: #222849;
+    color: #f5e5d6;
+    box-shadow: 2px 2px 10px rgb(0 0 0 / 40%);
+    text-decoration: none;
+    display: block;
+    width: fit-content;
+  }
+  
+  .btn-blue:hover {
+    transition-duration: 0.3s;
+    background-color : #343d6f;
+  }
+  
+  ul {
+    padding-left : 0px ;
+    margin : 10px ;
+  }
+  
+  .list-inline {
+    display: inline-flex;
+    font-size: 3em;
+    width: 200px;
+    justify-content: space-evenly;
+  }
+  
+  ul > li > a {
+    color: #222849;
+  }
+  
+
+  .text-no-space {
+    margin : 0px ; 
+  }
+
+  .text-no-space > li > p {
+    margin : 0px ; 
+  }
+
+  .no-bottom-margin {
+    margin-bottom : 0px ; 
+  }
+
+  .less-padding {
+    padding: 5px;
+  }
+
+
+
+
